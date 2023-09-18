@@ -1,0 +1,35 @@
+.advantages
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 10px
+    padding-top: 150px
+    padding-bottom: 150px
+
+    &__item
+        position: relative
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        max-width: 440px    
+    &__bg
+        position: absolute
+        // width: 200px
+        // height: 200px
+    &__text
+        position: relative
+    &__title
+        font-size: 25px
+    &__text
+        font-size: 20px
+        font-weight: 600
+@media (max-width: 1332px) 
+    .advantages
+        flex-wrap: wrap
+        gap: 157px 0px
+@media (max-width: 959px) 
+    .advantages
+        flex-wrap: wrap
+        justify-content: center
+        gap: 185px 0px

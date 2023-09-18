@@ -1,0 +1,39 @@
+.header
+    width: 100%
+    top: 16px
+    left: 0
+    position: absolute
+    &__logo
+        img
+            width: 100% 
+    &__content
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__links
+        display: flex
+        align-items: center
+        gap: 20px
+        flex-wrap: wrap
+    &__link
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 5px
+        color: #fff
+        &--btn
+            border: 2px solid #FFF
+            &:hover
+                background: #ffffff2a
+
+@media ( max-width:  581px)
+    .header
+        &__logo
+            width: 100px
+        &__links
+            justify-content: start
+            flex-direction: column-reverse
+            align-items: end
+        &__link
+            &--num
+                padding-right: 20px

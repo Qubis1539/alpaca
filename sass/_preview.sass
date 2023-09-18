@@ -1,0 +1,42 @@
+.preview
+    margin: 0 auto
+    padding-top: 203px
+    padding-bottom: 300px
+    max-width: 2000px
+    background: url("../images/main-bg.png") right bottom / 2000px 140% no-repeat
+
+
+    &__content
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        gap: 15px
+        font-weight: 900
+        text-align: center
+    &__subTitle, &__title, &__btn
+        color: #fff
+    &__subTitle
+        font-size: 25px
+    &__btn
+        margin-top: 54px
+        background: $accent-red
+        font-weight: 500
+        font-size: 25px
+        // &:hover
+        //     background: $accent-red-hover
+
+@media ( max-width:  1024px)
+    .preview
+        background-position: center bottom
+        
+@media ( max-width:  770px)
+    .preview
+        background-position: center bottom 
+@media ( max-width:  690px)
+    .preview
+        &__content
+            text-align: left
+            align-items: start
+        &__btn
+            width: 100%

@@ -1,0 +1,58 @@
+.students
+    position: relative
+    padding-top: 40px
+    padding-bottom: 100px
+    // overflow: hidden
+    &__decorate-img
+        position: absolute
+        left: 0
+        top: -100px
+        z-index: -1
+    &__text
+        margin-top: 21px
+        font-size: 39px
+    &__list
+        padding-top: 40px
+    &__item
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        border-radius: 50%
+        overflow: hidden
+        width: 325px
+        height: 325px
+    &__img
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+    &__info
+        position: relative
+        z-index: 2
+        text-align: center
+        padding-bottom: 46px
+        
+        display: flex
+        flex-direction: column
+        gap: 10px
+        justify-content: center
+        align-items: center
+        font-weight: 700
+    &__name
+        font-size: 36px
+        color: #FFF
+    &__course
+        font-size: 18px
+        color: #FFF
+@media ( max-width: 769px )
+    .students
+        padding-top: 80px
+
+        &__text
+            font-size: 20px
+        &__decorate-img
+            top: -20px
+            width: 100%
+    

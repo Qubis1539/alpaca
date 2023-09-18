@@ -1,0 +1,79 @@
+.footer
+    margin-top: 50px
+    border-top: 1px solid  #F8F0EF
+    padding-top: 47px
+    padding-bottom: 23px
+    &__content
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding-bottom: 44px
+    &__main
+        display: flex
+        flex-direction: column
+        gap: 10px
+    &__logo
+        margin-bottom: 5px
+    &__info
+        color: #A09D9D
+        font-size: 12px
+        line-height: 140%
+    &__sub
+        display: flex
+        gap: 49px
+        
+    &__nav
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        gap: 15px 49px
+    &__link
+        display: block
+        width: 181px
+    &__contacts
+        display: flex
+        flex-direction: column
+        gap: 10px
+    &__socials
+        display: flex
+        align-items: center
+        
+        gap: 7px
+    &__phone
+        display: flex
+        align-items: center
+        gap: 5px    
+    &__bottom-text
+        color: #A09D9D
+        text-align: center
+        font-size: 18px
+@media (max-width: 1024px) 
+    .footer
+        &__link
+            width: 141px
+        &__sub
+            gap: 0
+        &__nav
+            gap: 15px 0
+@media (max-width: 844px) 
+    .footer
+        &__content
+            flex-direction: column
+            align-items: start
+            gap: 35px
+        &__main
+            display: flex
+            flex-direction: column
+            align-items: start
+            gap: 10px
+        &__sub
+            display: flex
+            flex-direction: column
+            align-items: start
+            gap: 49px
+        &__plug
+            display: none
+        &__nav
+            display: flex
+            flex-direction: column
+            align-items: start
+            gap: 20px

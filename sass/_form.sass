@@ -1,0 +1,61 @@
+.form-box
+    max-width: 900px
+    margin: 0 auto
+    padding: 40px
+    border-radius: 25px
+    background: #FFF url("../images/form-bg.png") left bottom/ contain no-repeat
+    background-size: auto calc( 100% - 15px ) 
+    box-shadow: -11px 10px 32px 0px rgba(98, 80, 80, 0.10), -44px 38px 59px 0px rgba(98, 80, 80, 0.09), -99px 87px 79px 0px rgba(98, 80, 80, 0.05), -177px 154px 94px 0px rgba(98, 80, 80, 0.01), -276px 240px 102px 0px rgba(98, 80, 80, 0.00)
+    margin-bottom: 60px
+    &__title
+        margin-bottom: 40px
+    .form
+        display: flex
+        flex-direction: column
+        gap: 15px
+        &__field
+            width: 100%
+        &__input
+            padding: 23px 43px
+            border-radius: 53px 
+            border: 1px solid #B4B3B3  
+            background: #FFF
+            color: #786C6C
+            font-size: 18px
+            font-weight: 700
+            width: 100%
+        &__button
+            cursor: pointer
+            background: #FF2B2B
+            color: #FFF
+            font-size: 25px
+            font-weight: 500
+            margin-top: 25px
+    .form__drop-list
+        position: relative
+        &::after 
+            content: url("../images/icons/arrow-circle-down.svg")
+            display: block
+            font-size: 20px
+            width: 15px
+            height: 15px
+            right: 40px
+            top: 18px
+            position: absolute
+            z-index: 20 
+            pointer-events: none
+    select
+        appearance: none
+        cursor: pointer
+        
+        
+        
+    &__sub-info
+        color: #838383
+        font-size: 15px
+        font-weight: 700
+        margin-top: 15px
+
+@media (max-width: 460px) 
+    .form-box
+        padding: 40px 5px
