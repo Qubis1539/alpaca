@@ -60,7 +60,8 @@
 
     &__button
         align-self: start
-        width: 325px
+        max-width: 325px
+        width: 100%
     &__bg-img
         display: block
         position: absolute
@@ -115,5 +116,10 @@
 
 @media (max-width: 500px)
     .courses
+        &__title
+            font-size: 28px
+        &__text
+            font-size: 18px
         &__item
-            margin-bottom: 400px
+            padding-left: 0
+            // margin-bottom: 400px

@@ -55,3 +55,25 @@
     .faq
         &__item
             font-size: 25px
+        &__list
+            input
+                &:checked ~ label> .drop-menu__sub-info
+                    height: 200px !important
+                    // padding-top: 10px
+@media (max-width: 529px) 
+    .faq
+        &__list
+            input
+                &:checked ~ label> .drop-menu__sub-info
+                    height: 320px !important
+                    // padding-top: 10px
+@media (max-width: 529px) 
+    .faq
+        &__item
+            padding: 40px 20px
+            padding-right: 60px
+        &__list
+            input
+                &:checked ~ label> .drop-menu__sub-info
+                    height: 400px !important
+                    // padding-top: 10px

@@ -7,31 +7,31 @@ $(document).ready(function() {
                 items: 1
             },
             400: {
-                items: 1.2
+                items: 1
             },
             550: {
-                items: 1.5
+                items: 1
             },
             670: {
                 items: 2
             },
             850: {
-                items: 2.5
+                items: 2
             },
             1000: {
                 items: 3
             },
             1200: {
-                items: 3.5
+                items: 3
             },
             1300: {
                 items: 4
             },
             1500: {
-                items: 4.5
+                items: 4
             },
             1820: {
-                items: 5.5
+                items: 5
             }
         }
     });
