@@ -483,6 +483,9 @@ body {
   font-weight: 700;
   width: 100%;
 }
+.form-box .form__input.error {
+  border: 1px solid #FF2B2B;
+}
 .form-box .form__button {
   cursor: pointer;
   background: #FF2B2B;
@@ -604,7 +607,6 @@ body {
   font-size: 25px;
   font-weight: 500;
   overflow: hidden;
-  padding-top: 10px;
   height: 0px;
   transition: height 0.7s ease-in-out;
 }
@@ -615,7 +617,7 @@ body {
   flex-direction: column;
   border-radius: 20px;
   background: #F8F0EF;
-  padding: 40px 30px;
+  padding: 30px 30px;
   padding-right: 76px;
   color: #141212;
   font-size: 30px;
@@ -625,6 +627,9 @@ body {
   position: absolute;
   right: 30px;
   transition: all 0.5s ease-in-out;
+}
+.faq.faq__mainText {
+  padding: 10px 0;
 }
 .faq__list {
   margin-top: 40px;
